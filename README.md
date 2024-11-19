@@ -12,7 +12,7 @@ The goal of this challenge was to build a web service that processes a receipt, 
    - Input: JSON object containing receipt details (retailer name, purchase date, items, total, etc.).
    - Output: JSON object with a unique receipt ID.
 
-2. GET /receipts/{id}/points**
+2. GET /receipts/{id}/points
    - Purpose: To retrieve the points awarded for a processed receipt.
    - Input: The receipt ID (from the POST request).
    - Output: JSON object with the total points.
